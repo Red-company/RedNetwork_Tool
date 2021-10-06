@@ -34,7 +34,7 @@ def main():
         print("\033[91m /--<  _  __/ \033[0m\033[36m /  / _  /  , , , __ _   /<\033[0m     /__ __ // ")
         print("\033[91m/   \\_(/_(_/_ \033[0m\033[36m/  (_(/_(__(_(_/_(_)/ (_/ |_\033[0m  _/(_)(_)(/_ ")
         print("\n                     Author: Mr.\033[91mRed\033[0m")
-        print("       Github: ---")
+        print(" Github: https://github.com/Red-company/RedNetwork_Tool")
         print('                For legal purposes only\n')
 
         # Input.
