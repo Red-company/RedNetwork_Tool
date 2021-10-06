@@ -16,7 +16,7 @@ Current tool consist of:
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
  
-## Installing (Windows/Linux/MacOs/Termux):
+## Installing (Windows/Linux/MacOs):
 ```
 git clone https://github.com/Red-company/RedNetwork_Tool.git
 cd RN_Tool
