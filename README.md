@@ -26,14 +26,14 @@ sudo python3 RedNetwork_Tool.py
 
 ## How to use? Let's figure it out:
 
-### ifconfig
+### Ifconfig
 If you want to display your system's current TCP/IP network configuration, type the following command:
 
 `-ifconfig`
 
 ![plot](./Screenshots/RNT_ifconfig.png)
 
-### ports scanning
+### Ports scanning
 Supported types:
 - SYN (`-scansyn`)
 - TCP (`-scantcp`) 
@@ -53,7 +53,7 @@ Supported types:
 
 ![plot](./Screenshots/RNT_scan.png)
 
-### local scan
+### Local scan
 Perform scan to detect local devices.
 
 `-scanlocal`
@@ -67,7 +67,7 @@ Similar to the well known `nslookup` command used on UNIX systems.
 
 ![plot](./Screenshots/RNT_ns.png)
 
-### banner grabbing
+### Banner grabbing
 To perform banner grabbing, type one of the following commands:
 
 `-grab -host [HOST(s)] -p [PORT(s)]`
@@ -80,14 +80,14 @@ To perform banner grabbing, type one of the following commands:
 
 ![plot](./Screenshots/RNT_grab.png)
 
-### ping
+### Ping
 Uses to send ICMP packets to a host to check connectivity, simply type:
 
 `-ping [HOST]`
 
 ![plot](./Screenshots/RNT_ping.png)
 
-### traceroute
+### Traceroute
 Uses to diagnose route paths and measure transit delays, use the following command:
 
 `-traceroute [HOST]`
