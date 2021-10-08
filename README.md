@@ -1,4 +1,4 @@
-# Red DDoS Tool ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/last-commit/Red-company/RedNetwork_Tool) ![](https://img.shields.io/github/release-date/Red-company/RedNetwork_Tool) ![](https://img.shields.io/github/stars/Red-company/RedNetwork_Tool?style=social)
+# Red Network Tool ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/last-commit/Red-company/RedNetwork_Tool) ![](https://img.shields.io/github/release-date/Red-company/RedNetwork_Tool) ![](https://img.shields.io/github/stars/Red-company/RedNetwork_Tool?style=social)
 ![plot](./Screenshots/RNT_main.png)
 
 ## What is RedNetwork Tool?
@@ -16,7 +16,7 @@ Current tool consist of:
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
  
-## Installing (Windows/Linux/MacOs/Termux):
+## Installing (Windows/Linux/MacOs):
 ```
 git clone https://github.com/Red-company/RedNetwork_Tool.git
 cd RN_Tool
@@ -26,14 +26,14 @@ sudo python3 RedNetwork_Tool.py
 
 ## How to use? Let's figure it out:
 
-### ifconfig
+### Ifconfig
 If you want to display your system's current TCP/IP network configuration, type the following command:
 
 `-ifconfig`
 
 ![plot](./Screenshots/RNT_ifconfig.png)
 
-### ports scanning
+### Ports scanning
 Supported types:
 - SYN (`-scansyn`)
 - TCP (`-scantcp`) 
@@ -53,7 +53,7 @@ Supported types:
 
 ![plot](./Screenshots/RNT_scan.png)
 
-### local scan
+### Local scan
 Perform scan to detect local devices.
 
 `-scanlocal`
@@ -67,7 +67,7 @@ Similar to the well known `nslookup` command used on UNIX systems.
 
 ![plot](./Screenshots/RNT_ns.png)
 
-### banner grabbing
+### Banner grabbing
 To perform banner grabbing, type one of the following commands:
 
 `-grab -host [HOST(s)] -p [PORT(s)]`
@@ -80,21 +80,21 @@ To perform banner grabbing, type one of the following commands:
 
 ![plot](./Screenshots/RNT_grab.png)
 
-### ping
+### Ping
 Uses to send ICMP packets to a host to check connectivity, simply type:
 
 `-ping [HOST]`
 
 ![plot](./Screenshots/RNT_ping.png)
 
-### traceroute
+### Traceroute
 Uses to diagnose route paths and measure transit delays, use the following command:
 
 `-traceroute [HOST]`
 
 ![plot](./Screenshots/RNT_traceroute.png)
 
-## Screenshots? Here they are:
+## More screenshots? Here they are:
 
 ![plot](./Screenshots/RNT_about.png)
 
