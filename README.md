@@ -20,7 +20,7 @@ Current tool consist of:
 ```
 git clone https://github.com/Red-company/RedNetwork_Tool.git
 cd RN_Tool
-sudo . setup.sh
+bash setup.sh
 sudo python3 RedNetwork_Tool.py
 ```
 
@@ -97,6 +97,8 @@ Uses to diagnose route paths and measure transit delays, use the following comma
 ## More screenshots? Here they are:
 
 ![plot](./Screenshots/RNT_about.png)
+
+![plot](./Screenshots/RNT_setup.png)
 
 ![plot](./Screenshots/RNT_help.png)
 
