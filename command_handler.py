@@ -13,12 +13,13 @@ import sys
 import os
 
 # Files.
-from commands.ifconfig   import ifconfig
-from commands.scan       import scanStatus, scan, scanWithPort, scanLocalDevices
-from commands.ns         import ns, nsconv
-from commands.ping       import ping
-from commands.traceroute import traceroute
-from commands.banner     import bannerWithPort
+from commands.ifconfig        import ifconfig
+from commands.scan            import scanStatus, scan, scanWithPort, scanLocalDevices
+from commands.ns              import ns, nsconv
+from commands.ping            import ping
+from commands.traceroute      import traceroute
+from commands.banner          import bannerWithPort
+from commands.reverseiplookup import reverseiplookup
 
 
 # Argument parser.
@@ -89,6 +90,9 @@ ap.add_argument('-scanudp', action = 'store_true',
 
 ap.add_argument('-grab', action = 'store_true',
         help = 'perform banner grabbing.')
+
+ap.add_argument('-reverseip', action = 'store_true',
+        help = 'perform reverse ip lookup.')
 
 
 # Let's parse user's input.
@@ -194,3 +198,7 @@ elif args['grab']:
              print('Please type the command correctly. Examples: \n \t -grab -host [HOST(s)] -p [PORT(s)] \n \t -grab -iprange [START IP] [END IP] -prange [START PORT] [END PORT] \n \t -grab -host [HOST(s)] -prange [START PORT] [END PORT] \n \t -grab -iprange [START IP] [END IP] -p [PORT]')
     else:
         print('Please type the command correctly. Examples: \n \t -grab -host [HOST(s)] -p [PORT(s)] \n \t -grab -iprange [START IP] [END IP] -prange [START PORT] [END PORT] \n \t -grab -host [HOST(s)] -prange [START PORT] [END PORT] \n \t -grab -iprange [START IP] [END IP] -p [PORT]')
+
+# Reverseiplookup.
+elif args['reverseip']:
+    reverseiplookup()
