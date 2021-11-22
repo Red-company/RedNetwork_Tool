@@ -94,6 +94,16 @@ Uses to diagnose route paths and measure transit delays, use the following comma
 
 ![plot](./Screenshots/RNT_traceroute.png)
 
+
+### Reverse ip lookup
+Uses to perform a reverse ip lookup, to perform write:
+
+`-reverseip [HOST]`
+
+![plot](./Screenshots/RNT_reverseiplookup_1.png)
+
+![plot](./Screenshots/RNT_reverseiplookup_2.png)
+
 ## More screenshots? Here they are:
 
 ![plot](./Screenshots/RNT_about.png)
