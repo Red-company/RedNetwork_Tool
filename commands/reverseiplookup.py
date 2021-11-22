@@ -10,9 +10,7 @@ import sys
 from requests import get
 
 # Reverseiplookup function.
-def reverseiplookup():
-    inp_str = input("\nEnter an ip: ")
-
+def reverseiplookup(inp_str):
     lookup = 'https://api.hackertarget.com/reverseiplookup/?q=%s' % inp_str
 
     try:

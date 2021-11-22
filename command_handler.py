@@ -33,6 +33,7 @@ Examples:
         -grab -host 127.0.0.1 -p 22
         -ping scanme.nmap.org
         -traceroute scanme.nmap.org
+        -reverseip 8.8.8.8
 '''
 ))
 
@@ -91,7 +92,8 @@ ap.add_argument('-scanudp', action = 'store_true',
 ap.add_argument('-grab', action = 'store_true',
         help = 'perform banner grabbing.')
 
-ap.add_argument('-reverseip', action = 'store_true',
+ap.add_argument('-reverseip', type = str,
+        nargs = 1,
         help = 'perform reverse ip lookup.')
 
 
@@ -199,6 +201,6 @@ elif args['grab']:
     else:
         print('Please type the command correctly. Examples: \n \t -grab -host [HOST(s)] -p [PORT(s)] \n \t -grab -iprange [START IP] [END IP] -prange [START PORT] [END PORT] \n \t -grab -host [HOST(s)] -prange [START PORT] [END PORT] \n \t -grab -iprange [START IP] [END IP] -p [PORT]')
 
-# Reverseiplookup.
+# Reverse ip lookup
 elif args['reverseip']:
-    reverseiplookup()
+    reverseiplookup(args['reverseip'][0])
