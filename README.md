@@ -12,6 +12,7 @@ Current tool consist of:
 - Banner grabbing.
 - Ping(send ICMP packets to a host to check connectivity).
 - Traceroute(diagnose route paths and measure transit delays).
+- Reverse ip look up.
 
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
