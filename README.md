@@ -12,6 +12,7 @@ Current tool consist of:
 - Banner grabbing.
 - Ping(send ICMP packets to a host to check connectivity).
 - Traceroute(diagnose route paths and measure transit delays).
+- Reverse ip look up.
 
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
@@ -93,6 +94,16 @@ Uses to diagnose route paths and measure transit delays, use the following comma
 `-traceroute [HOST]`
 
 ![plot](./Screenshots/RNT_traceroute.png)
+
+
+### Reverse ip lookup
+Uses to perform a reverse ip lookup, to perform write:
+
+`-reverseip [HOST]`
+
+![plot](./Screenshots/RNT_reverseiplookup_1.png)
+
+![plot](./Screenshots/RNT_reverseiplookup_2.png)
 
 ## More screenshots? Here they are:
 
