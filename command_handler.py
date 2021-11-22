@@ -20,6 +20,7 @@ from commands.ping            import ping
 from commands.traceroute      import traceroute
 from commands.banner          import bannerWithPort
 from commands.reverseiplookup import reverseiplookup
+from commands.censys          import censys
 
 
 # Argument parser.
@@ -34,6 +35,7 @@ Examples:
         -ping scanme.nmap.org
         -traceroute scanme.nmap.org
         -reverseip 8.8.8.8
+        -censys 8.8.8.8
 '''
 ))
 
@@ -95,6 +97,10 @@ ap.add_argument('-grab', action = 'store_true',
 ap.add_argument('-reverseip', type = str,
         nargs = 1,
         help = 'perform reverse ip lookup.')
+
+ap.add_argument('-censys', type = str,
+        nargs = 1,
+        help = 'censys feature.')
 
 
 # Let's parse user's input.
@@ -204,3 +210,7 @@ elif args['grab']:
 # Reverse ip lookup
 elif args['reverseip']:
     reverseiplookup(args['reverseip'][0])
+
+# Censys
+elif args['censys']:
+    censys(args['censys'][0])
