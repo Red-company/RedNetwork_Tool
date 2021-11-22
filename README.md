@@ -13,6 +13,7 @@ Current tool consist of:
 - Ping(send ICMP packets to a host to check connectivity).
 - Traceroute(diagnose route paths and measure transit delays).
 - Reverse ip look up.
+- Censys
 
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
@@ -95,7 +96,6 @@ Uses to diagnose route paths and measure transit delays, use the following comma
 
 ![plot](./Screenshots/RNT_traceroute.png)
 
-
 ### Reverse ip lookup
 Uses to perform a reverse ip lookup, to perform write:
 
@@ -104,6 +104,15 @@ Uses to perform a reverse ip lookup, to perform write:
 ![plot](./Screenshots/RNT_reverseiplookup_1.png)
 
 ![plot](./Screenshots/RNT_reverseiplookup_2.png)
+
+### Censys
+Censys feature, just type:
+
+`-censys [HOST]`
+
+![plot](./Screenshots/RNT_censys_1.png)
+
+![plot](./Screenshots/RNT_censys_2.png)
 
 ## More screenshots? Here they are:
 
