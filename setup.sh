@@ -6,6 +6,7 @@ echo -e "                Please Wait..."
 # Install necessary packages.
 sudo pip3 install python-nmap
 sudo pip3 install ipinfo
+sudo pip install requests
 
 # Finally.
 clear
