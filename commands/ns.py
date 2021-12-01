@@ -35,7 +35,7 @@ def ns(str):
         print(f'Postal: {details.postal}')
         print(f'Organization: {details.org}')
         print(f'Location: {details.loc}')
-        print(f'Timezone: {details.timezone}\n')
+        print(f'Timezone: {details.timezone}')
 
 
 # Function to return an URL IP address

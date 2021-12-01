@@ -10,7 +10,6 @@ from   platform import system
 import sys
 import os
 
-# Files.
 from command_handler import *
 
 
@@ -19,7 +18,7 @@ version = "1.1"
 
 
 # Platform info
-uname=system()
+uname = system()
 
 if uname == "Windows":
     cmd_clear_clear = 'cls'

@@ -19,6 +19,8 @@ scanner = nmap.PortScanner()
 
 # Scan status function.
 def scanStatus(str, inputed):
+    sys.stdout.write('\n')
+    
     try:
         scanner.scan(str, '1', '-v -sT')
 

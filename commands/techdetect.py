@@ -29,5 +29,7 @@ def detectTech(url):
     technologies = list_response[0][0]['technologies']
 
     # Print.
+    sys.stdout.write('\n')
+
     for tech in technologies:
         sys.stdout.write(tech['name'] + '\n')
