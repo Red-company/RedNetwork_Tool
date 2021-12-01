@@ -12,7 +12,7 @@ Current tool consist of:
 - Banner grabbing.
 - Ping(send ICMP packets to a host to check connectivity).
 - Traceroute(diagnose route paths and measure transit delays).
-- Reverse ip look up.
+- Reverse ip lookup.
 - Censys
 
 ## Supported Devices:
