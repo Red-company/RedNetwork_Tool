@@ -15,6 +15,7 @@ Current tool consist of:
 - Reverse ip lookup.
 - Censys.
 - Site technologies detection feature.
+- Honeypot probability.
 
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
