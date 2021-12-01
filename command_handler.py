@@ -22,6 +22,7 @@ from commands.banner          import bannerWithPort
 from commands.reverseiplookup import reverseiplookup
 from commands.censys          import censys
 from commands.techdetect      import detectTech
+from commands.honeypot        import honeypot
 
 
 # Argument parser.
@@ -107,6 +108,10 @@ ap.add_argument('-censys', type = str,
 ap.add_argument('-techdetect', type = str,
         nargs = 1,
         help = 'perform technologies detection.')
+
+ap.add_argument('-honeypot', type = str,
+        nargs = 1,
+        help = "perform honeypot probability checker.")
 
 
 # Let's parse user's input.
@@ -221,6 +226,10 @@ elif args['reverseip']:
 elif args['censys']:
     censys(args['censys'][0])
 
-# Technologies detector.
+# Technologies detector
 elif args['techdetect']:
     detectTech(args['techdetect'][0])
+
+# Honeypot
+elif args['honeypot']:
+    honeypot(args['honeypot'][0])
