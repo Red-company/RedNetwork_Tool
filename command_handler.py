@@ -39,6 +39,7 @@ Examples:
         -reverseip 8.8.8.8
         -censys 8.8.8.8
         -techdetect https://mail.ru
+        -honeypot 164.128.164.7
 '''
 ))
 
