@@ -114,6 +114,10 @@ ap.add_argument('-honeypot', type = str,
         nargs = 1,
         help = "perform honeypot probability checker.")
 
+ap.add_argument('-findsubdomains', type = str,
+        nargs = 1,
+        help = "find subdomains.")
+
 
 # Let's parse user's input.
 args = vars(ap.parse_args())
