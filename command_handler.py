@@ -21,6 +21,7 @@ from commands.traceroute      import traceroute
 from commands.banner          import bannerWithPort
 from commands.reverseiplookup import reverseiplookup
 from commands.censys          import censys
+from commands.techdetect      import detectTech
 
 
 # Argument parser.
@@ -36,6 +37,7 @@ Examples:
         -traceroute scanme.nmap.org
         -reverseip 8.8.8.8
         -censys 8.8.8.8
+        -techdetect https://mail.ru
 '''
 ))
 
@@ -101,6 +103,10 @@ ap.add_argument('-reverseip', type = str,
 ap.add_argument('-censys', type = str,
         nargs = 1,
         help = 'censys feature.')
+
+ap.add_argument('-techdetect', type = str,
+        nargs = 1,
+        help = 'perform technologies detection.')
 
 
 # Let's parse user's input.
@@ -214,3 +220,7 @@ elif args['reverseip']:
 # Censys
 elif args['censys']:
     censys(args['censys'][0])
+
+# Technologies detector.
+elif args['techdetect']:
+    detectTech(args['techdetect'][0])
