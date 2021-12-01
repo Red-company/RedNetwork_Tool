@@ -13,7 +13,8 @@ Current tool consist of:
 - Ping(send ICMP packets to a host to check connectivity).
 - Traceroute(diagnose route paths and measure transit delays).
 - Reverse ip lookup.
-- Censys
+- Censys.
+- Site technologies detection feature.
 
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
@@ -113,6 +114,15 @@ Censys feature, just type:
 ![plot](./Screenshots/RNT_censys_1.png)
 
 ![plot](./Screenshots/RNT_censys_2.png)
+
+### TechDetect
+Uses to detect site's technologies. Type:
+
+`-techdetect [URL]`
+
+![plot](./Screenshots/RNT_techdetect_1.png)
+
+![plot](./Screenshots/RNT_techdetect_2.png)
 
 ## More screenshots? Here they are:
 
