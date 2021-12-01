@@ -124,6 +124,15 @@ Uses to detect site's technologies. Type:
 
 ![plot](./Screenshots/RNT_techdetect_2.png)
 
+### Honeypot
+Uses to calculate probability of ip being honeypot. To calculate just type:
+
+`-honeypot [IP]`
+
+![plot](./Screenshots/RNT_honeypot_1.png)
+
+![plot](./Screenshots/RNT_honeypot_2.png)
+
 ## More screenshots? Here they are:
 
 ![plot](./Screenshots/RNT_about.png)
