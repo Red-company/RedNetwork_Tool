@@ -21,10 +21,13 @@ Current tool consist of:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
  
 ## Installing (Windows/Linux/MacOs):
-```
+```diff
 git clone https://github.com/Red-company/RedNetwork_Tool.git
 cd RN_Tool
 bash setup.sh
+
+! After executing setup.sh, you'll need to edit newly created config.py
+
 sudo python3 RedNetwork_Tool.py
 ```
 
