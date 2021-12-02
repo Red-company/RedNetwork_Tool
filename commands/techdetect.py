@@ -10,11 +10,13 @@ import sys
 import json
 from requests import get
 
+from config import wappalyzer_key
+
 
 # DetectTech function.
 def detectTech(url):
 	# Info.
-    headers = {'x-api-key' : 'za8hSNwc9G3emtusKNyfP6kbc2Z32XZxaGd9q2By'}
+    headers = {'x-api-key' : wappalyzer_key}
 
     # Process.
     r = get('https://api.wappalyzer.com/v2/lookup/?urls=' + url, headers=headers)

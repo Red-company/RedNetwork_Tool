@@ -9,10 +9,12 @@ or copy at http://opensource.org/licenses/MIT)
 import sys
 from requests import get
 
+from config import shodan_key
+
 
 # Honeypot function.
 def honeypot(inp):
-    honey = 'https://api.shodan.io/labs/honeyscore/%s?key=QlYQNfWw7VlVAWQiWV5JOW56dRK2t1NZ' % inp
+    honey = 'https://api.shodan.io/labs/honeyscore/' + inp + '?key=' + shodan_key
 
     try:
         result = get(honey).text
@@ -20,7 +22,7 @@ def honeypot(inp):
 
     except:
         result = None
-        sys.stdout.write('\033[93m[!]\033[0m No information available' % bad + '\n')
+        sys.stdout.write('\033[93m[!]\033[0m No information available\n')
 
     if result:
         if float(result) < 0.5:

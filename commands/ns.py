@@ -10,10 +10,11 @@ import socket
 import sys
 import ipinfo
 
+from config import ipinfo_key
+
 
 # Variables.
-token = '4f0433c0bf7d7e'
-handler = ipinfo.getHandler(token)
+handler = ipinfo.getHandler(ipinfo_key)
 
 
 # NS function.
@@ -28,7 +29,7 @@ def ns(str):
         print(f'{e}')
 
     else:
-        print(f'Name: {name}')
+        print(f'\nName: {name}')
         print(f'Address: {addr}')
         print(f'Country: {details.country_name}')
         print(f'City: {details.city}')

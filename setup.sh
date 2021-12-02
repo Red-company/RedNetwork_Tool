@@ -3,10 +3,25 @@ clear
 echo -e "                Installing \033[91mRed\033[0mNetwork Tool,"
 echo -e "                Please Wait..."
 
-# Install necessary packages.
+# Installing necessary packages.
 sudo pip3 install python-nmap
 sudo pip3 install ipinfo
 sudo pip install requests
+
+# Creating config file.
+echo "#" > config.py
+echo "# Config file for Red Network Tool." >> config.py
+echo "#" >> config.py
+echo "" >> config.py
+echo "" >> config.py
+echo "# Shodan api key." >> config.py
+echo "shodan_key = ''" >> config.py
+echo "" >> config.py
+echo "# Ipinfo api key." >> config.py
+echo "ipinfo_key = ''" >> config.py
+echo "" >> config.py
+echo "# Wappalyzer api key." >> config.py
+echo "wappalyzer_key = ''" >> config.py
 
 # Finally.
 clear
