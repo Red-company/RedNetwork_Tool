@@ -1,4 +1,4 @@
-# Red Network Tool (أداة شبكة ريد) ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/last-commit/Red-company/RedNetwork_Tool) ![](https://img.shields.io/github/stars/Red-company/RedNetwork_Tool?style=social)
+# 🔍 Red Network Tool (أداة شبكة ريد) ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/last-commit/Red-company/RedNetwork_Tool) ![](https://img.shields.io/github/stars/Red-company/RedNetwork_Tool?style=social)
 ![plot](./Screenshots/RNT_main.png)
 
 ## What is RedNetwork Tool?
