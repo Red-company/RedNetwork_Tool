@@ -2,9 +2,9 @@
 ![plot](./Screenshots/RNT_main.png)
 
 ## What is RedNetwork Tool?
-Red Network Tool is a tool for network exploration and info finding.
+Red Network Tool is a tool for network exploration and info finding over the internet. `There is a config feature!`
 
-Current tool consist of:
+Current tool version consist of:
 - Ifconfig.
 - Port scan(comprehensive, TCP, SYN, ACK, UDP).
 - Host discovery(scan for up devices on a local network).
