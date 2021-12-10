@@ -18,7 +18,7 @@ Current tool version consist of:
 - Honeypot probability.
 
 ## Supported Devices:
- This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
+ This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so don't worry it works well without any bugs.
  
 ## Installing (Windows/Linux/MacOs):
 ```diff
