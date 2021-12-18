@@ -14,7 +14,7 @@ from command_handler import *
 
 
 # Version.
-version = "1.2"
+version = "1.3"
 
 
 # Platform info
