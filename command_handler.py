@@ -24,6 +24,7 @@ from commands.censys          import censys
 from commands.techdetect      import detectTech
 from commands.honeypot        import honeypot
 from commands.macaddress      import macaddresslookup
+from commands.dnsmap          import dnsmap
 
 
 # Argument parser.
@@ -119,6 +120,10 @@ ap.add_argument('-honeypot', type = str,
 ap.add_argument('-macaddress', type = str,
         nargs = 1,
         help = "perform mac address lookup.")
+
+ap.add_argument('-dnsmap', type = str,
+        nargs = 1,
+        help = "perform dns mapping feature.")
 
 
 # Let's parse user's input.
@@ -244,3 +249,8 @@ elif args['honeypot']:
 # Mac address
 elif args['macaddress']:
     macaddresslookup(args['macaddress'][0])
+
+# Dns map
+elif args['dnsmap']:
+    dnsmap(args['dnsmap'][0])
+
