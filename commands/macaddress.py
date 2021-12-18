@@ -22,7 +22,6 @@ def macaddresslookup(mac):
         print("Company: " + str(final["company"]))
         print("Address: " + str(final["address"]))
         print("Country: " + str(final["country"]))
-        print("")
 
     else:
         print("Error: Something Went Wrong")
