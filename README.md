@@ -1,10 +1,10 @@
-# Red Network Tool ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/last-commit/Red-company/RedNetwork_Tool) ![](https://img.shields.io/github/release-date/Red-company/RedNetwork_Tool) ![](https://img.shields.io/github/stars/Red-company/RedNetwork_Tool?style=social)
+# 🌐🔍 Red Network Tool (أداة شبكة ريد) ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/stars/Red-company/RedNetwork_Tool?style=social)
 ![plot](./Screenshots/RNT_main.png)
 
 ## What is RedNetwork Tool?
-Red Network Tool is a tool for network exploration and info finding.
+Red Network Tool is a tool for network exploration and info finding over the internet. `There is a config feature!`
 
-Current tool consist of:
+Current tool version consist of:
 - Ifconfig.
 - Port scan(comprehensive, TCP, SYN, ACK, UDP).
 - Host discovery(scan for up devices on a local network).
@@ -18,7 +18,7 @@ Current tool consist of:
 - Honeypot probability.
 
 ## Supported Devices:
- This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so Dont worry it works well without any bugs.
+ This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so don't worry it works well without any bugs.
  
 ## Installing (Windows/Linux/MacOs):
 ```diff
