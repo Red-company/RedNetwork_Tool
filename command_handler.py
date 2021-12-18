@@ -43,6 +43,7 @@ Examples:
         -techdetect https://mail.ru
         -honeypot 164.128.164.7
         -macaddress 00:00:5e:00:53:af
+        -dnsmap mail.ru
 '''
 ))
 
