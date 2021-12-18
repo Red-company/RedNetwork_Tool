@@ -16,6 +16,7 @@ Current tool version consist of:
 - Censys.
 - Site technologies detection feature.
 - Honeypot probability.
+- Mac address lookup.
 
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so don't worry it works well without any bugs.
@@ -136,6 +137,15 @@ Uses to calculate probability of ip being honeypot. To calculate just type:
 ![plot](./Screenshots/RNT_honeypot_1.png)
 
 ![plot](./Screenshots/RNT_honeypot_2.png)
+
+### Mac address lookup
+You can check information about certain mac address with it, type:
+
+`-macaddress [MAC]`
+
+![plot](./Screenshots/RNT_macaddress_1.png)
+
+![plot](./Screenshots/RNT_macaddress_2.png)
 
 ## More screenshots? Here they are:
 
