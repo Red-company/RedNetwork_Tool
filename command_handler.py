@@ -23,6 +23,7 @@ from commands.reverseiplookup import reverseiplookup
 from commands.censys          import censys
 from commands.techdetect      import detectTech
 from commands.honeypot        import honeypot
+from commands.macaddress      import macaddresslookup
 
 
 # Argument parser.
@@ -40,6 +41,7 @@ Examples:
         -censys 8.8.8.8
         -techdetect https://mail.ru
         -honeypot 164.128.164.7
+        -macaddress 00:00:5e:00:53:af
 '''
 ))
 
@@ -113,6 +115,10 @@ ap.add_argument('-techdetect', type = str,
 ap.add_argument('-honeypot', type = str,
         nargs = 1,
         help = "perform honeypot probability checker.")
+
+ap.add_argument('-macaddress', type = str,
+        nargs = 1,
+        help = "perform mac address lookup.")
 
 
 # Let's parse user's input.
@@ -234,3 +240,7 @@ elif args['techdetect']:
 # Honeypot
 elif args['honeypot']:
     honeypot(args['honeypot'][0])
+
+# Mac address
+elif args['macaddress']:
+    macaddresslookup(args['macaddress'][0])
