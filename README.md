@@ -2,7 +2,7 @@
 ![plot](./Screenshots/RNT_main.png)
 
 ## What is RedNetwork Tool?
-Red Network Tool is a tool for network exploration and info finding over the internet. `There is a config feature!`
+_Red Network Tool_ is a tool for network exploration and info finding over the internet. _`There is a config feature!`_
 
 Current tool version consist of:
 - Ifconfig.
@@ -20,9 +20,9 @@ Current tool version consist of:
 - Dns mapping.
 
 ## Supported Devices:
- This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so don't worry it works well without any bugs.
+ This program is supported in all operating system like _Linux_, _Windows_ and _MacOS_. The Code is written in _python3_, so don't worry it works well without any bugs.
  
-## Installing (Windows/Linux/MacOs):
+## Installing (_Windows/Linux/MacOS_):
 ```diff
 git clone https://github.com/Red-company/RedNetwork_Tool.git
 cd RN_Tool
@@ -36,7 +36,7 @@ sudo python3 RedNetwork_Tool.py
 ## How to use? Let's figure it out:
 
 ### Ifconfig
-If you want to display your system's current TCP/IP network configuration, type the following command:
+If you want to display your system's current _TCP/IP_ network configuration, type the following command:
 
 `-ifconfig`
 
@@ -44,11 +44,11 @@ If you want to display your system's current TCP/IP network configuration, type 
 
 ### Ports scanning
 Supported types:
-- SYN (`-scansyn`)
-- TCP (`-scantcp`) 
-- UDP (`-scanudp`)
-- ACK (`-scanack`)
-- Comprehensive scan (`-scan`).
+- _SYN_ (`-scansyn`)
+- _TCP_ (`-scantcp`) 
+- _UDP_ (`-scanudp`)
+- _ACK_ (`-scanack`)
+- _Comprehensive scan_ (`-scan`).
 
 `-scan -host [HOST(s)]`
 
@@ -70,14 +70,14 @@ Perform scan to detect local devices.
 ![plot](./Screenshots/RNT_scanlocal.png)
 
 ### DNS check
-Similar to the well known `nslookup` command used on UNIX systems.
+Similar to the well known _`nslookup`_ command used on _UNIX_ systems.
 
 `-ns [HOST(s)]`
 
 ![plot](./Screenshots/RNT_ns.png)
 
 ### Banner grabbing
-To perform banner grabbing, type one of the following commands:
+To perform _banner grabbing_, type one of the following commands:
 
 `-grab -host [HOST(s)] -p [PORT(s)]`
 
@@ -90,21 +90,21 @@ To perform banner grabbing, type one of the following commands:
 ![plot](./Screenshots/RNT_grab.png)
 
 ### Ping
-Uses to send ICMP packets to a host to check connectivity, simply type:
+Uses to send _ICMP_ packets to a host to check connectivity, simply type:
 
 `-ping [HOST]`
 
 ![plot](./Screenshots/RNT_ping.png)
 
 ### Traceroute
-Uses to diagnose route paths and measure transit delays, use the following command:
+Uses to diagnose route paths and measure _transit delays_, use the following command:
 
 `-traceroute [HOST]`
 
 ![plot](./Screenshots/RNT_traceroute.png)
 
 ### Reverse ip lookup
-Uses to perform a reverse ip lookup, to perform write:
+Uses to perform a _reverse ip lookup_, to perform write:
 
 `-reverseip [HOST]`
 
@@ -113,7 +113,7 @@ Uses to perform a reverse ip lookup, to perform write:
 ![plot](./Screenshots/RNT_reverseiplookup_2.png)
 
 ### Censys
-Censys feature, just type:
+_Censys_ feature, just type:
 
 `-censys [HOST]`
 
@@ -122,7 +122,7 @@ Censys feature, just type:
 ![plot](./Screenshots/RNT_censys_2.png)
 
 ### TechDetect
-Uses to detect site's technologies. Type:
+Uses to detect site's _technologies_. Type:
 
 `-techdetect [URL]`
 
@@ -131,7 +131,7 @@ Uses to detect site's technologies. Type:
 ![plot](./Screenshots/RNT_techdetect_2.png)
 
 ### Honeypot
-Uses to calculate probability of ip being honeypot. To calculate just type:
+Uses to calculate probability of ip being _honeypot_. To calculate just type:
 
 `-honeypot [IP]`
 
@@ -140,7 +140,7 @@ Uses to calculate probability of ip being honeypot. To calculate just type:
 ![plot](./Screenshots/RNT_honeypot_2.png)
 
 ### Mac address lookup
-You can check information about certain mac address with it, type:
+You can check information about certain _mac address_ with it, type:
 
 `-macaddress [MAC]`
 
@@ -149,7 +149,7 @@ You can check information about certain mac address with it, type:
 ![plot](./Screenshots/RNT_macaddress_2.png)
 
 ### Dns map
-Do you want to get a map of dns servers of certain organization? Okay, here it is:
+Do you want to get a _map of dns servers_ of certain organization? Okay, here it is:
 
 `-dnsmap [DOMAIN]`
 
