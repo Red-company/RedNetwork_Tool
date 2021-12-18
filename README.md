@@ -17,6 +17,7 @@ Current tool version consist of:
 - Site technologies detection feature.
 - Honeypot probability.
 - Mac address lookup.
+- Dns mapping.
 
 ## Supported Devices:
  This program is supported in all operating system like Linux, Windows and MacOs. The Code is written in python3, so don't worry it works well without any bugs.
@@ -146,6 +147,17 @@ You can check information about certain mac address with it, type:
 ![plot](./Screenshots/RNT_macaddress_1.png)
 
 ![plot](./Screenshots/RNT_macaddress_2.png)
+
+### Dns map
+Do you want to get a map of dns servers of certain organization? Okay, here it is:
+
+`-dnsmap [DOMAIN]`
+
+![plot](./Screenshots/RNT_dnsmap_1.png)
+
+![plot](./Screenshots/RNT_dnsmap_2.png)
+
+![plot](./Screenshots/RNT_dnsmap_3.png)
 
 ## More screenshots? Here they are:
 
