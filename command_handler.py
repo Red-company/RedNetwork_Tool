@@ -250,8 +250,6 @@ elif args['techdetect']:
     detectTech(args['techdetect'][0])
 
 # Honeypot
-elif args['subdomains']:
-    subdomains(args['subdomains'][0])
 elif args['honeypot']:
     honeypot(args['honeypot'][0])
 
@@ -264,3 +262,5 @@ elif args['dnsmap']:
     dnsmap(args['dnsmap'][0])
 
 # Subdomains
+elif args['subdomains']:
+    subdomains(args['subdomains'][0])
