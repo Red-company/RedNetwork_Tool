@@ -15,23 +15,28 @@ from config import wappalyzer_key
 
 # DetectTech function.
 def detectTech(url):
-	# Info.
-    headers = {'x-api-key' : wappalyzer_key}
+    # Check for api key.
+    if wappalyzer_key == "":
+        print("\n[\033[91m*\033[0m] \033[4mEnter an api key in config.py\033[0m")
 
-    # Process.
-    r = get('https://api.wappalyzer.com/v2/lookup/?urls=' + url, headers=headers)
-    
-    technologies  = []
-    list_response = []
+    else:
+    	# Info.
+        headers = {'x-api-key' : wappalyzer_key}
 
-    # Response process.
-    for one in r:
-        list_response.append(r.json())
+        # Process.
+        r = get('https://api.wappalyzer.com/v2/lookup/?urls=' + url, headers=headers)
+        
+        technologies  = []
+        list_response = []
 
-    technologies = list_response[0][0]['technologies']
+        # Response process.
+        for one in r:
+            list_response.append(r.json())
 
-    # Print.
-    sys.stdout.write('\n')
+        technologies = list_response[0][0]['technologies']
 
-    for tech in technologies:
-        sys.stdout.write(tech['name'] + '\n')
+        # Print.
+        sys.stdout.write('\n')
+
+        for tech in technologies:
+            sys.stdout.write("[\033[91m*\033[0m] " + tech['name'] + '\n')

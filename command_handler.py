@@ -25,6 +25,7 @@ from commands.techdetect      import detectTech
 from commands.honeypot        import honeypot
 from commands.macaddress      import macaddresslookup
 from commands.dnsmap          import dnsmap
+from commands.subdomains      import subdomains
 
 
 # Argument parser.
@@ -44,6 +45,7 @@ Examples:
         -honeypot 164.128.164.7
         -macaddress 00:00:5e:00:53:af
         -dnsmap mail.ru
+        -subdomains mail.ru
 '''
 ))
 
@@ -125,6 +127,10 @@ ap.add_argument('-macaddress', type = str,
 ap.add_argument('-dnsmap', type = str,
         nargs = 1,
         help = "perform dns mapping feature.")
+
+ap.add_argument('-subdomains', type = str,
+        nargs = 1,
+        help = "get subdomains")
 
 
 # Let's parse user's input.
@@ -244,6 +250,8 @@ elif args['techdetect']:
     detectTech(args['techdetect'][0])
 
 # Honeypot
+elif args['subdomains']:
+    subdomains(args['subdomains'][0])
 elif args['honeypot']:
     honeypot(args['honeypot'][0])
 
@@ -255,3 +263,4 @@ elif args['macaddress']:
 elif args['dnsmap']:
     dnsmap(args['dnsmap'][0])
 
+# Subdomains

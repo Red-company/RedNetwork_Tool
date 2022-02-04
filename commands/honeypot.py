@@ -26,7 +26,7 @@ def honeypot(inp):
 
     if result:
         if float(result) < 0.5:
-            sys.stdout.write('\033[93m[!]\033[0m Honeypot Probabilty: \033[92m' + str(float(result)) + '\033[0m %\n')
+            sys.stdout.write('[\033[91m*\033[0m]\033[93m[!]\033[0m Honeypot Probabilty: \033[92m' + str(float(result)) + '\033[0m %\n')
 
         else:
-            sys.stdout.write('\033[93m[!]\033[0m Honeypot Probabilty: \033[91m' + str(float(result)) + '\033[0m %\n')
+            sys.stdout.write('[\033[91m*\033[0m]\033[93m[!]\033[0m Honeypot Probabilty: \033[91m' + str(float(result)) + '\033[0m %\n')
