@@ -126,9 +126,11 @@ Uses to detect site's _technologies_. Type:
 
 `-techdetect [URL]`
 
-![plot](./Screenshots/RNT_techdetect_1.png)
-
-![plot](./Screenshots/RNT_techdetect_2.png)
+<img src="https://github.com/Red-company/RedNetwork_Tool/blob/main/Screenshots/RNT_techdetect.png?raw=true" style="
+            object-fit:contain;
+            display:inline-block;
+            width:680px;
+            height:auto;">
 
 ### Honeypot
 Uses to calculate probability of ip being _honeypot_. To calculate just type:
@@ -158,6 +160,17 @@ Do you want to get a _map of dns servers_ of certain organization? Okay, here it
 ![plot](./Screenshots/RNT_dnsmap_2.png)
 
 ![plot](./Screenshots/RNT_dnsmap_3.png)
+
+## Subdomains
+Subdomains, unfortunately, only by bruteforcing 10.000 most common ones.
+
+`-subdomains mail.ru`
+
+<img src="https://github.com/Red-company/RedNetwork_Tool/blob/main/Screenshots/RNT_subdomains.png?raw=true" style="
+            object-fit:contain;
+            display:inline-block;
+            width:680px;
+            height:auto;">
 
 ## More screenshots? Here they are:
 
