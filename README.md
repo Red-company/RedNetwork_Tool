@@ -1,4 +1,8 @@
 # 🌐🔍 Red Network Tool (أداة شبكة ريد) ![](https://img.shields.io/apm/l/vim-mode) ![](https://img.shields.io/github/stars/Red-company/RedNetwork_Tool?style=social)
+
+<p align="left" display="inline-block">
+<img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg"> <img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red"></p>
+
 ![plot](./Screenshots/RNT_main.png)
 
 ## What is RedNetwork Tool?
